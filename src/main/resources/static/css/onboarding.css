@@ -1,0 +1,140 @@
+#refreshing_banking_modal .modal-dialog.modal-dialog-centered {
+    width: 720px;
+}
+#refreshing_banking_modal .modal-content {
+    height: 560px;
+}
+#refreshing_banking_modal .modal-body {
+    padding: 0;
+}
+#refreshing_banking_modal .close {
+    position: absolute;
+    right: 32px;
+    top: 32px;
+    opacity:1;
+}
+.refreshingBankingModal_title, .registrationStepsModal_title {
+    font-family: Lato;
+    font-weight: 900;
+    line-height: 32px;
+    text-align: center;
+}
+.refreshingBankingModal_title {
+    margin-top: 40px;
+}
+
+.refreshingBankingModal_text, .registrationStepsModal_text{
+    color: #55585A;
+    font-family: Lato;
+    letter-spacing: 0;
+    line-height: 24px;
+    text-align: center;
+}
+.refreshingBankingModal_text{
+    margin-top: 16px;
+}
+.registrationStepsModal_text{
+    margin: auto;
+    margin-top: 16px;
+    width: 658px;
+}
+.refreshingBankingModal_img{
+    margin: 0 auto;
+}
+.refreshingBankingModal_btn, .registrationStepsModal_btn{
+    width: 152px;
+    margin: 0 auto;
+    background-color: #2E3031;
+    border-color: #2E3031;
+    color: #fff;
+    font-size: 18px;
+}
+.step4-btn{
+    background-color: #DC143D;
+    border-color: #DC143D;
+}
+.refreshingBankingModal_btn{
+    margin-top: 40px;
+}
+.registrationStepsModal_imgContainer{
+    width: 360px;
+    height: 216px;
+    margin: 32px auto;
+}
+.registrationStepsModal_pagination{
+    width: 104px;
+    height: 16px;
+    margin: 32px auto; 
+    display: flex;
+    justify-content: space-around;
+}
+.registrationStepsModal_pagination span{
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    border: 1px solid #000000;
+}
+.registrationStepsModal_pagination span.active{
+    background-color: #000000;
+}
+.container_content_1{
+    flex: 1;
+}
+@media (max-width: 750px){
+    #refreshing_banking_modal .modal-dialog.modal-dialog-centered {
+        width: 95%;
+        margin: auto;
+    }
+    #refreshing_banking_modal .modal-content {
+        height: 90vh;
+        max-height: 600px;
+    }
+    .refreshingBankingModal_text, .registrationStepsModal_text{
+        width: 95%;
+        margin: auto;
+        margin-top: 16px;
+    }
+    .refreshingBankingModal_btn{
+        margin-bottom: 25px;
+    }
+    .refreshingBankingModal_title{
+        margin-top: 50px;
+    }
+    .registration_content_2{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+    .registrationStepsModal_btn{
+        margin-top: auto;
+        margin-bottom: 25px;
+    }
+    .container_content_1{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 600px){
+    .refreshingBankingModal_imgContainer{
+        flex: 0.8
+    }
+   
+    .refreshingBankingModal_title, .registrationStepsModal_title {
+        font-size: 20px;
+    }
+}
+@media (max-width: 400px){
+    .registrationStepsModal_imgContainer{
+        margin: 10px auto;
+    }
+    .registrationStepsModal_pagination{
+        margin: 25px auto;
+    }
+}
+@media (min-width: 576px){
+    #refreshing_banking_modal .modal-dialog {
+        max-width: unset;
+    }
+}

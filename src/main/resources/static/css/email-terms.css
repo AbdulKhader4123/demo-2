@@ -1,0 +1,42 @@
+.verification-step-terms {
+    max-width: 640px;
+    margin: auto;
+  }
+  
+  .terms-list {
+      box-sizing: border-box;
+      max-height: 528px;
+      width: 640px;
+      border: 1px solid var(--white-2);
+      border-radius: 8px;
+      background-color: var(--white-2);
+      scrollbar-color: var(--red) var(--white-2); /* Applicable for mozilla */
+  }
+  
+  .terms-list::-webkit-scrollbar {
+    width: 4px;
+  }
+  
+  /* Track */
+  .terms-list::-webkit-scrollbar-track {
+    background: var(--white-2); 
+  }
+  
+  .terms-list::-webkit-scrollbar-thumb {
+    background: var(--red);
+  }
+
+  .confirmBtn {
+    height: 48px;
+    width: 192px;
+    border-radius: 4px;
+  }
+
+  .tnc-text {
+    font-size: 14px;
+  }
+  
+  .tnc-text h6 {
+    font-size: 15px;
+    font-weight: 600;
+  }

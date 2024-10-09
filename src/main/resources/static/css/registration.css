@@ -1,0 +1,75 @@
+.verification-step-01 {
+  max-width: 420px;
+  margin: auto;
+}
+
+.verification-step-02 {
+  max-width: 420px;
+  margin: auto;
+}
+
+.verification-wrapper {
+  max-width: 660px;
+}
+
+.card-selector {
+  padding: 24px 64px 24px 72px;
+  border-radius: 4px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .1);
+  background-color: var(--white);
+  width: 100%;
+}
+
+.card-label {
+  position: relative;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  text-align: left;
+}
+
+.card-label::before {
+  content: url('../img/icons-banking-cards.svg');
+  display: block;
+  position: absolute;
+  top: -6px;
+  left: -52px
+}
+
+.card-label::after {
+  content: url('../img/icons-navigation-arrow-right.svg');
+  display: block;
+  position: absolute;
+  top: 3px;
+  right: -40px
+}
+
+.back-button {
+  box-sizing: border-box;
+  height: 40px;
+  width: 47%;
+  border: 1px solid #2E3031;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+
+.back-label {
+  color: #2E3031;
+  font-family: Lato;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 24px;
+  text-align: center;
+}
+
+.next-button {
+  height: 40px;
+  width: 48%;
+  border-radius: 4px;
+  background-color: #DC143D;
+}
+@media (width < 540px){
+  .otp-form-img{
+    max-width: 90%;
+  }
+}

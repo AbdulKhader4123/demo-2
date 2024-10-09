@@ -1,0 +1,28 @@
+.footer{
+  padding: 1rem;
+  color: #3B3D3F;
+  font-size: 10px;
+  line-height: 1rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  background: rgb(255, 255, 255);
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+html,body{
+  margin: 0;
+  padding: 0;
+}
+@media screen and (max-width: 480px) {
+    .footer{
+        text-align: center;
+        padding: 1rem;
+    }
+}
+.footer-container .footer{
+    position: relative;
+}

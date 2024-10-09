@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>3AA430C4-3BA2-471F-B6C6-623A6B306EC1</title>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="05---Login---Incorrect-User-ID-and-password" transform="translate(-608.000000, -251.000000)">
+            <g id="Alerts-/2-Multi-Line/4-Danger-" transform="translate(600.000000, 243.000000)">
+                <g id="3-Icons/2-Notifications-/4-Danger-/3-Two-Tone" transform="translate(8.000000, 8.000000)">
+                    <rect id="BG" fill-opacity="0.01" fill="#D8D8D8" x="0" y="0" width="24" height="24"></rect>
+                    <circle id="Oval" fill="#DC143D" fill-rule="nonzero" cx="11" cy="13" r="8"></circle>
+                    <path d="M12,2 C17.5228,2 22,6.477 22,12 C22,17.523 17.5228,22 12,22 C6.4772,22 2,17.523 2,12 C2,6.477 6.4772,2 12,2 Z M12,3 C7.0294,3 3,7.029 3,12 C3,16.971 7.0294,21 12,21 C16.9706,21 21,16.971 21,12 C21,7.029 16.9706,3 12,3 Z M12,16 C12.4142,16 12.75,16.336 12.75,16.75 C12.75,17.164 12.4142,17.5 12,17.5 C11.5858,17.5 11.25,17.164 11.25,16.75 C11.25,16.336 11.5858,16 12,16 Z M12,6 C12.2761,6 12.5,6.224 12.5,6.5 L12.5,13.5 C12.5,13.776 12.2761,14 12,14 C11.7239,14 11.5,13.776 11.5,13.5 L11.5,6.5 C11.5,6.224 11.7239,6 12,6 Z" id="Shape" fill="#000000" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

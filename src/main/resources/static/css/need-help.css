@@ -1,0 +1,46 @@
+.help-label {
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    color: var(--black);
+}
+
+.help-checkmark {
+    height: 24px;
+    width: 24px;
+    border: 1px solid var(--secondary-8);
+    margin-top: 0px;
+}
+
+.cancel-button {
+    box-sizing: border-box;
+    border: 1px solid var(--secondary-1);
+    border-radius: 4px;
+    background-color: var(--white);
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+button {
+    height: 48px;
+    width: 192px;
+}
+
+.form-check-input:focus {
+    border-color: var(--secondary-8);
+    box-shadow: none;
+}
+
+.form-check-input:checked {
+    background-color: var(--black);
+    border-color: var(--black);
+}
+
+.form-check {
+    padding-left: 0px;
+    margin-left: 40px;
+}

@@ -1,0 +1,191 @@
+.card_form__container{
+    max-width: 416px;
+    margin: auto;
+}
+.card_form__heading, .card_form__desc{
+    line-height: 40px;
+    margin: 0;
+    font-family: Lato;
+}
+.card_form__desc{
+   color: var(--secondary-6);
+   line-height: 28px;
+}
+#card-form .form-label{
+   color: var(--secondary-6);
+   font-family: 'Lato';
+   letter-spacing: 0;
+   line-height: 24px;
+}
+.nic-passport-input label {
+    font-size: 20px;
+    font-weight: bold;
+}
+#card-form ::placeholder{
+    color: var(--color-text-placeholder);
+    font-family: Lato;
+}
+.nic_passport_card_container{
+    display: flex;
+    gap: 32px;
+}
+.nic_passport_card{
+    height: 112px;
+    width: 192px;
+    border: 1px solid var(--platinum);
+    border-radius: 4px;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+}
+.nic_passport_card.active{
+    border: 1px solid var(--completed-green);
+    box-shadow: 0 2px 0 0 var(--completed-green);
+}
+.nic_passport_card.active .card-text{
+    color: var(--black);
+}
+.nic_passport_card.active .card-img-container{
+    background-color: transparent;
+}
+.nic_passport_card.active .card-img{
+    content: url('../img/status-check.svg');
+}
+.nic_passport_card .card-text{
+    height: 24px;
+    color: var(--secondary-6);
+    font-family: Lato;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 16px;
+    text-align: center;
+    margin-top: 8px;
+}
+.nic_passport_card .card-img-container{
+    height: 48px;
+    width: 48px;
+    background-color: var(--white-1);
+    border-radius: 50%;
+}
+.nic_passport_card .card-img{
+    margin: auto;
+    display: block;
+    margin-top: 4px;
+    height: 40px;
+    width: 40px;
+}
+.nic-passport-radio{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 192px;
+    position: absolute;
+    height: 112px;
+    cursor: pointer;
+    color: transparent;
+    background: transparent;
+}
+.card-form_button-container{
+    display: flex;
+    gap: 32px;
+    margin-top: 32px;
+}
+#card-form_cancel-btn.card-form_cancel-btn{
+    height: 48px;
+    width: 192px;
+    border: 1px solid var(--secondary-1);
+    border-radius: 4px;
+    background-color: transparent;
+    color: var(--secondary-1);
+    font-family: Lato;
+    font-size: 18px;
+}
+#card-form_continue-btn.card-form_continue-btn{
+    height: 48px;
+    width: 192px;
+    border-radius: 4px;
+    background-color: var(--secondary-1);
+    color: var(--white);
+    font-family: Lato;
+    font-size: 18px;
+}
+.card-form-error{
+    position: absolute;
+    color: var(--primary-1);
+    font-size: 14px;
+}
+.card-form-backBtn{
+    position: absolute;
+    transform: translateX(-120px) translateY(5px);
+    color: var(--link-1);
+    font-family: Lato;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.card-form-backBtn:hover{
+    text-decoration: none;
+}
+.arrow-left-img{
+    height: 24px;
+    width: 24px;
+    margin-right: 8px;
+    margin-bottom: 2px;
+}
+.discard-btn{
+    background-color: var(--primary-1);
+    border-color: var(--primary-1);
+    padding: 0.5rem 1.5rem;
+    font-weight: 600;
+}
+.btn-primary.discard-btn:not(:disabled):is(:hover,:focus,:active,:active:focus){
+    background-color: var(--primary-4);
+    border-color: var(--primary-4);
+}
+.cancel-btn{
+    color: var(--link-1);
+    font-weight: 600;
+    padding: 0.5rem 1.5rem;
+}
+.cancel-btn:hover{
+    color: var(--link-4);
+    background-color:var(--white-1);
+    border-color: var(--white-1);
+}
+.modal-header{
+    border: 0;
+    padding: 2rem 2rem 0;
+}
+.modal-body{
+    padding: 2rem;
+}
+.modal-footer{
+    border: 0;
+    padding: 1.75rem;
+    padding-top: 0;
+}
+
+.card-form-error{
+    display: none;
+}
+input.border-error + .card-form-error{
+    display: block;
+}
+
+@media (min-width: 700px){
+    .modal-dialog {
+        max-width: 600px;
+    }
+}
+@media (width < 768px){
+    .card-form-backBtn{
+        position: relative;
+        top: -5px;
+    }
+}

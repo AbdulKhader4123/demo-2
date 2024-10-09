@@ -1,0 +1,98 @@
+.stepper-container {
+  margin-bottom: 64px;
+}
+.stepper-header {
+  font-size: 20px;
+  font-weight: 900;
+  line-height: initial;
+  text-align: center;
+  margin: 32px auto 24px auto;
+  color: var(--secondary-6);
+}
+
+/* Add your styles here */
+.stepper {
+  display: flex;
+}
+
+.step {
+  flex: 1;
+  height: 1px;
+  display: flex;
+}
+
+.step:after,
+.step:before {
+  margin-top: 7px;
+  flex: 1;
+  content: '';
+  display: block;
+  border-bottom: 1px solid var(--secondary-7);
+}
+
+.step.completed::after, .step.completed::before, .step.active::before {
+  border-bottom: 1px solid var(--green);
+}
+
+.step:first-child::before, .step.completed:first-child::before, .step.active:first-child::before {
+  border: none;
+}
+
+.step:last-child::after, .step.completed:last-child::after, .step.active:last-child::after {
+  border: none;
+}
+
+.step.completed .circle {
+  border: 1px solid #0B875D;
+}
+
+.step.completed .circle::after {
+  background-color: #0B875D;
+}
+
+.step .circle {
+  position: relative;
+  height: 14px;
+  width: 14px;
+  border: 1px solid var(--orange);
+  border-radius: 50%;
+  background-color: var(--white);
+}
+
+.step .circle::after {
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  content: ' ';
+  display: block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #FF9125;
+}
+
+.step.active .circle {
+  border: 1px solid #000000;
+}
+
+.step.active .circle::after {
+  background-color: #000000;
+}
+
+.stepper-labels {
+  margin-top: 20px;
+  display: flex;
+  font-size: 14px;
+  color: var(--secondary-6);
+}
+
+.step-lebel {
+  flex: 1;
+  text-align: center;
+}
+
+@media (width < 768px){
+  .stepper-container {
+      margin-bottom: 0;
+  }
+}

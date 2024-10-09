@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>FA45E71E-BC6B-4F84-BF5F-BB4EFB0F8B50</title>
+    <g id="1---Icons/Status/Error/24px/4-Negative" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="shape" transform="translate(2, 2)" fill-rule="nonzero">
+            <circle id="Oval" fill="#DC143D" cx="9" cy="11" r="8"></circle>
+            <path d="M10,0 C15.5228,0 20,4.477 20,10 C20,15.523 15.5228,20 10,20 C4.4772,20 0,15.523 0,10 C0,4.477 4.4772,0 10,0 Z M10,1 C5.0294,1 1,5.029 1,10 C1,14.971 5.0294,19 10,19 C14.9706,19 19,14.971 19,10 C19,5.029 14.9706,1 10,1 Z M10,14 C10.4142,14 10.75,14.336 10.75,14.75 C10.75,15.164 10.4142,15.5 10,15.5 C9.5858,15.5 9.25,15.164 9.25,14.75 C9.25,14.336 9.5858,14 10,14 Z M10,4 C10.2761,4 10.5,4.224 10.5,4.5 L10.5,11.5 C10.5,11.776 10.2761,12 10,12 C9.7239,12 9.5,11.776 9.5,11.5 L9.5,4.5 C9.5,4.224 9.7239,4 10,4 Z" id="Shape" fill="#000000"></path>
+        </g>
+    </g>
+</svg>
