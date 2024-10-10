@@ -21,16 +21,26 @@ public class FormController {
         return "redirect:/form";
     }
 
-    @GetMapping("/form")
-    public String formGet(Model model) {
+    @GetMapping("/otpError")
+    public String maxOtpAttemptError(Model model) {
        String loginTitle = messageSource.getMessage("loginTitle", null, Locale.getDefault());
         System.out.println("Login Title: " + loginTitle);
+        initializeModel(model);
+        return "mcb-otp-max-attempt";
+    }
+
+    @GetMapping("/terms")
+    public String cardsTermsAndCondition(Model model) {
+       String loginTitle = messageSource.getMessage("loginTitle", null, Locale.getDefault());
+        System.out.println("Login Title: " + loginTitle);
+        initializeModel(model);
+        return "mcb-cards-terms";
+    }
+
+    public void initializeModel(Model model){
         model.addAttribute("msg", messageUtil); 
         model.addAttribute("url", new Url()); 
         model.addAttribute("properties", new Properties()); 
-
-        // return "mcb-otp-max-attempt";
-        return "mcb-cards-terms";
     }
 
     public static class Url {
